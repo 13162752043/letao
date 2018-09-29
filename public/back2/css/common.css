@@ -1,0 +1,162 @@
+
+html,body{
+  width: 100%;
+  height: 100%;
+}
+.bg-color{
+  background-color: #222D32;
+}
+/* 初始化样式 */
+*{
+  padding:0;
+  margin:0;
+}
+ul,li{
+  list-style: none;
+  text-decoration: none;
+}
+/* 重置a的样式 */
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+/* 登录页面样式 */
+.mt-150{
+  margin-top:150px;
+}
+.lt-login .panel-heading{
+  height: 40px;
+  line-height:40px;
+  text-align:center;
+  background-color: #337ab7;
+  color:#fff;
+}
+
+/* 左侧边栏部分 */
+.lt-aside{
+  width: 180px;
+  height: 100%;
+  background-color: #222D32;
+  position: fixed;
+  left:0;
+  top: 0; 
+  z-index:999;
+  transition:all 0.5s;
+}
+.lt-aside.hideMenu{
+  left:-180px;
+}
+
+.lt-aside .brand{
+  width: 100%;
+  height: 50px;
+  background-color: #367FA9;
+  text-align:center;
+  font-size:24px;
+  line-height:50px;
+}
+.lt-aside .brand a{
+  color:#fff;
+}
+.lt-aside .user{
+  width: 100%;
+  height: 180px;
+  padding-top:50px;
+}
+.lt-aside .user img{
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.lt-aside .user p{
+  height: 40px;
+  width: 100%;
+  line-height:40px;
+  text-align: center;
+  font-size:18px;
+  color:#fff;
+}
+
+.lt-aside .nav li a{
+  display: block;
+  width: 100%;
+  height: 40px;
+  color:#fff;
+  line-height:40px;
+  padding-left:40px;
+  border-left:3px solid transparent;
+}
+.lt-aside .nav li .child a{
+  padding-left:60px;
+}
+.lt-aside .nav li a.current{
+  border-left:3px solid #337ab7;
+  background-color: #1D1F21;
+}
+
+/* 头部导航区域 */
+.lt-topbar{
+  width: 100%;
+  height: 50px;
+  background-color: #3C8DBC;
+  position:fixed;
+  left:0;
+  top: 0;
+  padding-left:180px;
+  transition:all 0.5s;
+}
+.lt-topbar.hideMenu{
+  padding-left: 0;
+}
+.lt-topbar a{
+  display:block;
+  width: 50px;
+  height: 50px;
+  line-height:50px;
+  text-align:center;
+  font-size:18px;
+  color:#fff;
+}
+
+.lt-main{
+  width: 100%;
+  height: 2000px;
+  padding-left:180px;
+  padding-top:50px;
+  transition:all 0.5s;
+}
+.lt-main.hideMenu{
+  padding-left:0;
+}
+
+.lt-main .breadcrumb{
+  margin-top:20px;
+}
+
+/* 模态框的样式 */
+#modul p{
+  color:red;
+}
+ 
+/* 图形模块 */
+.lt-main .charts .chart1,
+.lt-main .charts .chart2
+{
+  width: 48%;
+  height: 400px;
+  background-color: lime;
+}
+
+.lt-main  th,
+.lt-main  td{
+  text-align:center;
+}
+
+
+
+
+
+
+
+
